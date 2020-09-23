@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin=0;
+    padding=0;
+}
+section{
+    float: left;
+}
+h1 {
+    text-align: center;
+    color: #cb997e;
+}
+#AboutUs{
+   background-color: #eddcd2;
+   width: 30%;
+   margin-left: 3%;
+   border: 1px solid #eddcd2;
+}
+#Program{
+    background-color: #fff1e6;
+    width: 30%;
+    margin-left: 3%;
+   border: 1px solid  #fff1e6k;
+}
+#ContactUs{
+    background-color: #9c9577;
+    margin-left: 3%;
+    width: 30%;
+   border: 1px solid #9c9577;
+}
