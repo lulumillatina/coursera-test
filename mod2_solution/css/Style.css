@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
-    margin=0;
-    padding=0;
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
 }
+/******Base Style******/
 section{
     float: left;
 }
@@ -10,21 +13,79 @@ h1 {
     text-align: center;
     color: #cb997e;
 }
+p{
+    margin-top:0;
+    text-align: center; 
+    font-weight: bold;  
+    font-size: 120%;
+    border-bottom: 1px solid black; 
+    border-left: 1px solid black;
+    width: 25%;
+    background-color: #9c9577;
+    float: right;
+}
 #AboutUs{
    background-color: #eddcd2;
-   width: 30%;
-   margin-left: 3%;
-   border: 1px solid #eddcd2;
+   border: 1px solid black;
 }
 #Program{
-    background-color: #fff1e6;
-    width: 30%;
-    margin-left: 3%;
-   border: 1px solid  #fff1e6k;
+    background-color: #eddcd2;
+    border: 1px solid  black;
 }
 #ContactUs{
-    background-color: #9c9577;
-    margin-left: 3%;
-    width: 30%;
-   border: 1px solid #9c9577;
+    background-color: #eddcd2;
+    border: 1px solid black;
+}
+/******Large Device Style******/
+@media(min-width: 992px) {
+    #AboutUs{
+        width: 32%;
+        margin-left: 1%;
+    }
+    #Program{
+        width: 32%;
+        margin-left: 1%;
+    }
+    #ContactUs{
+        margin-left: 1%;
+        width: 32%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    #AboutUs{
+        width: 40%;
+        margin: 5% 5% 5% 5%;
+    }
+    #Program{
+        width: 40%;
+        margin : 5% 5% 5% 5%;
+    }
+    #ContactUs{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{ width: 35%;}
+}
+
+@media(max-width: 767px) {
+    #AboutUs{
+        width: 80%;
+        margin: 5% 5% 5% 5%;
+    }
+    #Program{
+        width: 80%;
+        margin : 5% 5% 5% 5%;
+    }
+    #ContactUs{
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{ width: 35%;}
+    section{
+        float: inherit;
+        clear: right;
+    }
 }
