@@ -12,12 +12,12 @@
     color: #cb997e;
     font-size: 175%;
 }
+.content {
+    width: 100%;
+}
 section{
-    float: left;
-    margin-top: 20px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-left: 5px;
+    margin : 10% 5% 5% 5%;
+    clear: right;
 }
 p{
     margin-top:0;
@@ -30,77 +30,32 @@ p{
     background-color: #9c9577;
     float: right;
 }
-#AboutUs{
+.AboutUs, .Program, .ContactUs {
    background-color: #eddcd2;
    border: 1px solid black;
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
 }
-#Program{
-    background-color: #eddcd2;
-    border: 1px solid  black;
-}
-#ContactUs{
-    background-color: #eddcd2;
-    border: 1px solid black;
-}
+
 /******Large Device Style******/
 @media(min-width: 992px) {
-    #AboutUs{
-        height: 145px;
-        width: 30%;
-        margin-left: 2%;
-    }
-    #Program{
-        width: 30%;
-        height: 145px;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    #ContactUs{
-        height: 145px;
-        margin-right: 2%;
-        width: 30%;
+    .BoxContent, .BoxContent1{
+        float: left;
+        width: 33.33%;
     }
 }
 @media(min-width: 768px) and (max-width: 991px){
-    #AboutUs{
-        width: 46%;
-        height: 130px;
-        margin: 2.5% 1.5% 2.5% 2.5%;
+    .BoxContent{
+        float: left;
+        width: 50%;
     }
-    #Program{
-        height: 130px;
-        width: 46%;
-        margin: 2.5% 2.5%  2.5% 1.5%;
+    .BoxContent1{
+        float: left;
+        width: 100%;
     }
-    #ContactUs{
-        height: 130px;
+    .ContactUs {
         width: 95%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-    p{ width: 35%;}
-}
-
-@media(max-width: 767px) {
-    #AboutUs{
-        width: 80%;
-        height: 100px;
-        margin: 5% 5% 5% 5%;
-    }
-    #Program{
-        width: 80%;
-        height: 100px;
-        margin : 5% 5% 5% 5%;
-    }
-    #ContactUs{
-        width: 80%;
-        height: 100px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    p{ width: 35%;}
-    section{
-        float: inherit;
-        clear: right;
     }
 }
