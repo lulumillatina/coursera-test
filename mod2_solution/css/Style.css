@@ -15,6 +15,9 @@
 section{
     float: left;
     margin-top: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left: 5px;
 }
 p{
     margin-top:0;
@@ -42,17 +45,17 @@ p{
 /******Large Device Style******/
 @media(min-width: 992px) {
     #AboutUs{
-        height: 150px;
+        height: 130px;
         width: 32%;
         margin-left: 1%;
     }
     #Program{
         width: 32%;
-        height: 150px;
+        height: 130px;
         margin-left: 1%;
     }
     #ContactUs{
-        height: 150px;
+        height: 130px;
         margin-left: 1%;
         width: 32%;
     }
@@ -60,16 +63,16 @@ p{
 @media(min-width: 768px) and (max-width: 991px){
     #AboutUs{
         width: 46%;
-        height: 150px;
+        height: 130px;
         margin: 2.5% 1.5% 2.5% 2.5%;
     }
     #Program{
-        height: 150px;
+        height: 130px;
         width: 46%;
         margin: 2.5% 2.5%  2.5% 1.5%;
     }
     #ContactUs{
-        height: 150px;
+        height: 130px;
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
@@ -80,17 +83,17 @@ p{
 @media(max-width: 767px) {
     #AboutUs{
         width: 80%;
-        height: 150px;
+        height: 100px;
         margin: 5% 5% 5% 5%;
     }
     #Program{
         width: 80%;
-        height: 150px;
+        height: 100px;
         margin : 5% 5% 5% 5%;
     }
     #ContactUs{
         width: 80%;
-        height: 150px;
+        height: 100px;
         margin-left: 5%;
         margin-right: 5%;
     }
