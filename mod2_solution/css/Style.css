@@ -23,7 +23,7 @@ p{
     font-size: 125%;
     border-bottom: 1px solid black; 
     border-left: 1px solid black;
-    width: 25%;
+    width: 35%;
     background-color: #9c9577;
     float: right;
 }
@@ -59,14 +59,14 @@ p{
 }
 @media(min-width: 768px) and (max-width: 991px){
     #AboutUs{
-        width: 45%;
+        width: 46%;
         height: 150px;
-        margin: 2.5% 1.25% 2.5% 2.5%;
+        margin: 2.5% 1.5% 2.5% 2.5%;
     }
     #Program{
         height: 150px;
-        width: 45%;
-        margin: 2.5% 2.5%  2.5% 1.25%;
+        width: 46%;
+        margin: 2.5% 2.5%  2.5% 1.5%;
     }
     #ContactUs{
         height: 150px;
