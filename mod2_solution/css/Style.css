@@ -45,18 +45,18 @@ p{
 /******Large Device Style******/
 @media(min-width: 992px) {
     #AboutUs{
-        height: 130px;
+        height: 135px;
         width: 28%;
         margin-left: 5%;
     }
     #Program{
         width: 28%;
-        height: 130px;
+        height: 135px;
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
     #ContactUs{
-        height: 130px;
+        height: 135px;
         margin-right: 5%;
         width: 28%;
     }
