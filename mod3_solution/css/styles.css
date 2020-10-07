@@ -1,0 +1,37 @@
+body{
+    font-size: 16px;
+    background-color: #D2F7FB;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: white;
+}
+#logo-img {
+    background: url('../Images/LOGO ROL.png') no-repeat;
+    width: 150px;
+    height: 80px;
+    background-size: 85%;
+}
+.navbar-brand{
+    padding-top: 22px;
+}
+.navbar-brand h1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0.5px #ECFCFD;
+}
+/*Delete hyperlink decoration*/
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.nav-list{
+    text-align: center;
+}
+
+/*style icon
+.navbar-header button.navbar.toggler, .navbar-header .navbar-toggler-icon {
+    
+}
+*/
