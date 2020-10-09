@@ -14,38 +14,60 @@
   </head>
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light "> 
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="float-left d-none d-sm-block">
-                        <div id="logo-img" alt="Logo image"></div>
-                    </a>
-                    
+        <nav id="header-nav" class="navbar navbar-expand{-sm|-md|-lg|-xl} navbar-light "> 
+            <div class="container">                    
                     <div class="navbar-brand">
-                        <a href="index.html"><h1>Room of Learning</h1></a>
+                        <a href="index.html"><h1>Food, LLC</h1></a>
                     </div>
+                    <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-list">
+                    <ul class="navbar-nav nav-list d-block d-sm-none">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Tentang Kami</a>
+                            <a class="nav-link" href="#chicken-tile">Chicken</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#beef-tile">Beef</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" >Program</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Bank Materi</a>
+                            <a class="nav-link" href="#sushi-tile">Sushi</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <h1>Our Menu</h1>
+    <div class="container">
+    <div id="main-tiles" class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div id="chicken-tile"><a href="#"><span>Chicken</span></a>
+            <section>Room of Learning is a place for you to explore new knowledges. 
+                Currently we offer private courses for high school students.           
+            </section>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div id="beef-tile"><a href="#"><span>Beef</span></a>
+              <section>We offer private courses for one person until three persons in one study group.
+                  We focus on sciences and math. We also educate people by sharing facts through our social media.            
+              </section>
+            </div>
+          </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div id="sushi-tile"><a href="#"><span>Sushi</span></a>
+              <section class="Link">If you interested to find out more about us, please kindly
+                like and follow our pages at <a href="https://www.facebook.com/roomoflearning" target="_blank">Facebook</a>
+            and <a href="https://www.instagram.com/roomoflearning_/" target="_blank">Instagram</a>         
+              </section>
+            </div>
+          </div>
+    </div>
+  
+
+    
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->

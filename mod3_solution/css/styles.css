@@ -6,18 +6,10 @@ body{
 #header-nav {
     background-color: white;
 }
-#logo-img {
-    background: url('../Images/LOGO ROL.png') no-repeat;
-    width: 150px;
-    height: 80px;
-    background-size: 85%;
-}
-.navbar-brand{
-    padding-top: 22px;
-}
+
 .navbar-brand h1{
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0.5px 0.5px 0.5px #ECFCFD;
@@ -28,6 +20,36 @@ body{
 }
 .nav-list{
     text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a,a:hover{
+    text-decoration: none;
+    color: black;
+}
+#chicken-tile, #beef-tile, #sushi-tile{
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+section{
+    text-align: justify;
+    font-size: 18px;
+    margin: 25px 25px 25px 25px;
+    font-weight: normal;
+}
+.Link a{
+    text-decoration: underline;
 }
 
 /*style icon
